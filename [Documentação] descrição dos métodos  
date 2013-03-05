@@ -1,0 +1,12 @@
+Métodos:
+
+Void AdicionarElemento(Integer elemento)
+--Adiciona um elemento do tipo inteiro ao conjunto"Generio". 
+
+Boolean Pertinencia(Integer elemento)
+--passando como parâmetro um elemento do tipo inteiro o método verifica a associação o elemento com relação ao conjunto. 
+caso o elemento seja associado ao conjunto o método retorna true, caso contrario retorna false.
+
+boolean Continencia(List<Integer> conj)
+--Dado um subconjunto passado como parâmetro o método verifica se o mesmo está contido no conjunto. 
+caso haja associação o método retorna true. caso contrario o método retorna false.   
