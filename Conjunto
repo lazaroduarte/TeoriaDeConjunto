@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Lazaro
+ */
+public class conjunto {
+
+    List<Integer> conjunto = new ArrayList();
+ 
+ 
+   public void AdicionarElemento(Integer elemento){
+       
+       conjunto.add(elemento);
+   }
+   public boolean Pertinencia(Integer elemento){
+       
+       if(conjunto.contains(elemento)){
+           return true;
+       }
+       else{
+           return false;
+       }
+       
+   }
+   
+   public boolean Continencia(List<Integer> conj){
+       
+       if(conjunto.containsAll(conj)){
+           return true; 
+       }
+       else{
+           return false;
+       }
+   }
+}
